@@ -7,4 +7,8 @@ public class Deer extends Hooved
   {
     System.out.println("The deer grunts.");
   }
+
+  public void speak() {
+    System.out.println("deer noise");
+  }
 }

@@ -1,6 +1,8 @@
 /*
  * Activity 4.9.2
  */
+
+import java.util.ArrayList;
 public class ZooKeeperRunner
 {
   public static void main(String[] args) {
@@ -30,6 +32,38 @@ public class ZooKeeperRunner
     Owl owl2 = new Owl("mice,insects", true, 4.0);
     owl2.eat();
 
-    
+
+    ArrayList<Animal> animalArrayList = new ArrayList<Animal>();
+
+    animalArrayList.add(new Animal());
+    animalArrayList.add(new Bird());
+    animalArrayList.add(new Deer());
+    animalArrayList.add(new Elephant());
+    animalArrayList.add(new Feline());
+    animalArrayList.add(new Giraffe());
+    animalArrayList.add(new Gorilla());
+    animalArrayList.add(new Hippo());
+    animalArrayList.add(new Hooved());
+    animalArrayList.add(new Lion());
+    animalArrayList.add(new Monkey());
+    animalArrayList.add(new Owl());
+    animalArrayList.add(new Penguin());
+    animalArrayList.add(new Primate());
+    animalArrayList.add(new Tiger());
+
+    for (Animal currentAnimal: animalArrayList) {
+      currentAnimal.speak();
+    }
+    hearTheAnimal(owl2);
+    hearTheAnimal(hippo);
+    hearTheAnimal(giraffe);
+  }
+
+
+
+  public static void hearTheAnimal(Animal currentAnimal)
+  {
+      currentAnimal.speak();
   }
 }
+

@@ -13,4 +13,8 @@ public class Hooved extends Animal
   {
     System.out.println("The hooved animal forages for food.");
   }
+
+  public void speak() {
+    System.out.println("hooved animal noise");
+  }
 }

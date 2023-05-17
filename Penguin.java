@@ -5,4 +5,7 @@ public class Penguin extends Bird{
         System.out.println("The penguin goes fishing.");
     }
     
+    public void speak() {
+        System.out.println("penguin noise");
+    }
 }

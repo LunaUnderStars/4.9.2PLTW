@@ -14,4 +14,8 @@ public class Feline extends Animal {
     public void roar() {
         System.out.println("The feline roars.");
     }
+
+    public void speak() {
+        System.out.println("feline noise");
+    }
 }

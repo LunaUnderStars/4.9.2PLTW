@@ -8,4 +8,8 @@ public class Owl extends Bird{
     public void hunt() {
         System.out.println("The owl hunts.");
     }
+
+    public void speak() {
+        System.out.println("owl noise");
+    }
 }
